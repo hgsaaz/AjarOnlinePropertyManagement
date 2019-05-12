@@ -4,7 +4,7 @@ This assignment demonstrates REACT, REACT ROUTER and REDUX integration.There is 
 
 #### Run the application in development mode (assuming node.js is installed)
 ```
-$ git clone https://github.com/ASHFAQPATWARI/ajardemo.git
+$ git clone https://github.com/hgsaaz/AjarOnlinePropertyManagement.git
 $ cd ajardemo
 $ npm install
 $ npm start
@@ -24,7 +24,7 @@ $ serve -s build
 - Component Lfecycle hooks for adding and removing listeners
 - React `state` and `props`
 - DOM Events handling
-- DOM Nodes `reference` (for validating signup form)
+- DOM Nodes `reference`
 - JSX Patterns like `conditionals` & `lists`
 
 ### React Router v4:
@@ -36,7 +36,7 @@ $ serve -s build
 ### Redux Concepts displayed:
 - `Reducers` for user handling
 - Usage of `MapStateToProps` for getting user object from store
-- Using `mapDispatchToProps` for setting user object in store on signup
+- Using `mapDispatchToProps` for setting user object in store
 
 #### The code is hosted on github: https://github.com/hgsaaz/AjarOnlinePropertyManagement
 
