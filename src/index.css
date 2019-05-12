@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  min-height: calc(100vh - 74px) !important;
+}
+.nav-header {
+  box-shadow: 0 0 5px 0 rgba(3,3,3,.25);
+}

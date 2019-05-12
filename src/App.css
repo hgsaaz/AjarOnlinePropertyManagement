@@ -1,0 +1,739 @@
+/*--------------React css----------*/
+
+.form-column {
+    padding: 10px;
+}
+
+.form-column-btn {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col_row {
+    background-color: rgb(32, 99, 155, 0.7);
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
+}
+
+.background-section {
+    background-image: url("../src/App/img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    z-index: 1;
+}
+
+.hero-section {
+    height: 600px;
+}
+
+.search-btn {
+    background-color: rgb(60, 174, 163,0.8);
+    display: inline-block;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 7px;
+    color: #fff;
+}
+
+.search-btn:disabled {
+    background-color: rgb(60, 174, 163,0.8);
+    display: inline-block;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 7px;
+    color: #fff;
+}
+
+.search-btn:hover {
+    background-color: rgb(60, 174, 163);
+    color: #fff;
+    border: none;
+}
+
+.call-btn {
+    background-color: rgb(60, 174, 163);
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 6px 12px;
+    color: #fff;
+}
+
+.nav-header {
+    background-color: rgb(32, 99, 155, 0.3);
+}
+
+.footer {
+    background-color: rgb(32, 99, 155, 0.3);
+    padding: 20px;
+}
+
+.postBtn {
+    background-color: rgb(60, 174, 163);
+    color: #FFF;
+    margin-left: 10px;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.postBtn:hover {
+    background-color: rgb(60, 174, 163, 0.6);
+}
+
+.card-view {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.card-view:last-child {
+    margin-top: 0px;
+}
+
+.card-view:first-child {
+    margin-bottom: 0px;
+}
+
+.price-view {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 13px;
+    background: #20639B;
+    color: #fff;
+}
+
+.room-info1 {
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.room-info1 p {
+    margin-bottom: 15px;
+}
+
+.room-info1 p i {
+    color: #20639B;
+    margin-right: 10px;
+}
+
+.filterDiv {
+    margin-top: 2px;
+    padding: 3px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.filterDiv a {
+    color: #20639B;
+}
+
+.feature-pic1 {
+    height: 200px;
+}
+
+.feature-pic1 .sale-notic,
+.feature-pic1 .rent-notic {
+    margin: 10px;
+}
+
+.filterCard {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: "5px";
+    box-Shadow: "2px 2px #ebebeb"
+}
+
+.property-info {
+    border: none;
+}
+
+.rm-inline-left {
+    float: none;
+}
+
+.rm-inline-right {
+    float: none;
+}
+
+.black-color {
+    color: #000;
+}
+
+.white-text {
+    color: #FFF;
+}
+
+.register-container {
+    padding: 20px 50px 20px 50px;
+}
+
+.no-border {
+    border : none;
+}
+
+.map-height {
+    height : 350px;
+}
+
+.listing-div{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.pad-3{
+    padding: 3px;
+}
+
+.custom-google-btn {
+    display :table;
+    background: #FFF;
+    color : #757575;
+    border-radius: 2px;
+    white-space: nowrap;
+    border: 1px solid #acacac;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.24), 0 0 2px 0 rgba(0,0,0,.12);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fb-btn {
+    background-color: #5777b9;
+    color :#FFF;
+}
+
+.button-text {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+}
+
+.icon {
+    background-image: url('../src/App/img/google.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.iconfb {
+    background-image: url('../src/App/img/facebook.png');
+}
+
+/*------Loading-------*/
+
+.loading {
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    background: #FFF;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loadingImg {
+    align-items: center;
+}
+
+.link:hover {
+    color: #717171
+}
+
+/*----Container Row Col-----*/
+
+.row-pad {
+    padding: 10px 0px 10px 0px;
+}
+
+.full-width {
+    width : 100%;
+}
+
+.right-float {
+    float : right;
+}
+
+.con-pad {
+    padding: 20px;
+}
+
+.grey-shadow {
+    box-Shadow: 1px 1px 20px 3px rgb(217, 217, 219,0.6);
+}
+
+.similar-porp-sec {
+    padding: 15px 10px 15px 30px;
+}
+
+.col-pad-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.col-pad-15{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.col-pad-10 {
+    padding: 0px 10px;
+}
+
+.col-pad-r-15 {
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+.h3-pad {
+    padding: 10px 10px 20px 0px;
+}
+
+.mar-0 {
+    margin: 0px;
+}
+
+.flex-pad {
+    padding-bottom: 20px;
+}
+
+.pad-bot-15 {
+    padding-bottom: 15px;
+}
+
+.pad-top-15 {
+    padding-top: 15px;
+}
+
+.pad-top-50 {
+    padding-top: 50px;
+}
+
+.h3-pad-10 {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.primary-color {
+    color: #20639B;
+}
+
+.filter-section-div {
+    padding: 30px 0;
+    z-index: 99;
+    margin-top: -3.3%;
+    margin-bottom: 3.3%;
+}
+
+.mar-bot-15 {
+    margin-bottom : 15px;
+}
+
+.pad-5 {
+    padding: 5px;
+}
+
+.pad-top-10{
+    padding-top: 10px;
+}
+
+.flex-div-pad{
+    padding: 0px 10px;
+}
+
+.pad-r-10 {
+    padding-right: 10px;
+}
+
+.color-red {
+    color : #F00;
+}
+/*-------------------------------*/
+
+
+/*Slide indicator*/
+
+
+/*-------------------------------*/
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #20639B;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #20639B;
+    cursor: pointer;
+}
+
+
+/*----------------------------------------*/
+
+
+/* Template default CSS
+/*----------------------------------------*/
+
+html,
+body {
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 600;
+    color: #252525;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 13.9px;
+    color: #707070;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+/*------------------
+  Feature section
+---------------------*/
+
+.feature-section .container {
+	margin-bottom: -50px;
+}
+
+.feature-item {
+	margin-bottom: 50px;
+}
+
+.feature-item .room-price {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	background: #fff;
+	text-align: center;
+	padding: 13px;
+	background: #20639B;
+	color: #fff;
+}
+
+.feature-pic {
+	height: 250px;
+}
+
+.feature-pic .sale-notic,
+.feature-pic .rent-notic {
+	margin: 20px;
+}
+
+.feature-text {
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+}
+
+.feature-title {
+	padding-top: 20px;
+}
+
+.feature-title h5 {
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.feature-title p {
+	margin-bottom: 0;
+}
+
+.feature-title p i {
+	color: #20639B;
+}
+
+.room-info-warp {
+	padding: 25px;
+	padding-bottom: 0;
+}
+
+.room-info {
+	border-top: 1px solid #ebebeb;
+	padding-top: 15px;
+	overflow: hidden;
+}
+
+.room-info p {
+	margin-bottom: 15px;
+}
+
+.room-info p i {
+	color: #20639B;
+	margin-right: 10px;
+}
+
+.room-info:last-child .rf-right {
+	padding-right: 14px;
+}
+
+.room-info .rf-left {
+	float: left;
+}
+
+.room-info .rf-right {
+	float: right;
+}
+
+
+/*------images-------*/
+.feat1{
+	background-image: url("../src/App/img/feature/1.jpg");
+}
+.feat2{
+	background-image: url("../src/App/img/feature/2.jpg");
+}
+.feat3{
+	background-image: url("../src/App/img/feature/3.jpg");
+}
+.feat4{
+	background-image: url("../src/App/img/feature/4.jpg");
+}
+.feat5{
+	background-image: url("../src/App/img/feature/5.jpg");
+}
+.feat6{
+	background-image: url("../src/App/img/feature/6.jpg");
+}
+
+
+
+/*---------------------
+	Helper CSS
+-----------------------*/
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.spad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sale-notic,
+.rent-notic {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #e94646;
+    padding: 7px 13px;
+    display: inline-block;
+    border-radius: 2px;
+    position: relative;
+    z-index: 3;
+}
+
+.rent-notic {
+    background: #eca643;
+}
+
+
+/*End of Helper Section*/
+
+
+/*------------------
+	Responsive
+---------------------*/
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+/* Medium screen : 992px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	
+}
+
+/* Tablet :768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.rm-inline-left {
+		float : left;
+	}
+
+	.rm-inline-right {
+		float : right;
+	}
+
+	.property-info {
+		border-bottom : 1px solid #ebebeb;
+		padding-bottom: 20px;
+	}
+
+	.postBtn {
+		margin-left: 0px;
+	}
+
+	.feature-pic1 {
+		height: 350px;
+	}
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 767px) {
+
+	.property-info {
+		border-bottom : 1px solid #ebebeb;
+		padding-bottom: 20px;
+	}
+
+	.postBtn {
+		margin-left: 0px;
+	}
+	.feature-pic1 {
+		height: 250px;
+	}
+	
+	.hero-section {
+		height: auto;
+	}
+}
+
+/* small Mobile :320px. */
+
+@media only screen and (max-width: 479px) {
+	
+}
+
+@media only screen and (max-width: 370px) {
+	.room-info .rf-left,
+	.room-info .rf-right {
+		float: none;
+	}
+}
