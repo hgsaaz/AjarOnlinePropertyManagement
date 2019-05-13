@@ -32,11 +32,10 @@ $ serve -s build
 - Redirects (AUTHENTICATION)
 - Handling No MATCH (404)
 - Use of `SWITCH` for rendering only first matched route
+- Use of `withRouter` to pass down router history.
 
 ### Redux Concepts displayed:
 - `Reducers` for user handling
-- Usage of `MapStateToProps` for getting user object from store
-- Using `mapDispatchToProps` for setting user object in store
 
 #### The code is hosted on github: https://github.com/hgsaaz/AjarOnlinePropertyManagement
 
