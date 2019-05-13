@@ -21,7 +21,7 @@ $ serve -s build
 ### React concepts used are:
 - Stateful class components
 - Stateless functional components
-- Component Lfecycle hooks for adding and removing listeners
+- Component Lifecycle hooks for adding and removing listeners
 - React `state` and `props`
 - DOM Events handling
 - DOM Nodes `reference`
@@ -31,8 +31,8 @@ $ serve -s build
 - Routes 
 - Redirects (AUTHENTICATION)
 - Handling No MATCH (404)
-- Use of `SWITCH` for rendering only first matched route
-- Use of `withRouter` to pass down router history.
+- Use of `SWITCH` for rendering only first matched route.
+- Use of `withRouter` to pass down router history for routing without Link.
 
 ### Redux Concepts displayed:
 - `Reducers` for user handling
