@@ -1,6 +1,6 @@
 # AjarOnlinePropertyManagement
 
-This assignment demonstrates REACT, REACT ROUTER and REDUX integration.There is a Login and Register page by which user can login into the app.Based on user role if admin it has access to admin section.There is a Post Ad button in header by which user can post their own property ad. User can view porperies and details without login. Every user has a account section in which user details list of porperies added by user are shown.
+This assignment demonstrates REACT, REACT ROUTER and REDUX integration.There is a Login and Register page by which user can login into the app.Based on user role if admin it has access to admin section whereball unverified properties are listed.There is a Post Ad button in header by which user can post their own property ad. User can view porperties and details without login. Every user has a account section in which user details,list of properties added by user are shown.
 
 #### Run the application in development mode (assuming node.js is installed)
 ```
