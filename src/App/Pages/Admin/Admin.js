@@ -113,9 +113,9 @@ class Admin extends React.Component {
                                                     <Col className="text-center"><h2>401:Unauthorize Access</h2></Col>
                                                 </Row>
                                             </Container> :
-                                            <Container>
+                                            <Container className="p-3">
                                                 <Row>
-                                                    <Col><h2>Property List</h2></Col>
+                                                    <Col><h2 className="pb-3">Property List</h2></Col>
                                                 </Row>
                                                 {
                                                     records != null && <div>{

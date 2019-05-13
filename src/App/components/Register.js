@@ -140,21 +140,21 @@ class Register extends React.Component {
                     </span>
                 }
 
-                <Container className="register-container">
+                <Container className="py-3 px-5">
                     <Row>
                         <Col>
-                            {showError && <Row className="row-pad">
+                            {showError && <Row className="py-3 px-0">
                                 <Col className="text-center color-red"> {errMsg} </Col>
                             </Row>
                             }
-                            <Row className="row-pad">
+                            <Row className="py-3 px-0">
                                 <Col lg="6" xl="6" className="text-center">
                                     <h3>Register</h3>
                                 </Col>
                             </Row>
-                            <Row className="row-pad">
+                            <Row className="py-3 px-0">
                                 <Col lg="6" xl="6">
-                                    <div onClick={this.handleGoogleSignIn}>
+                                    <div className="custom-google-btn-div" onClick={this.handleGoogleSignIn}>
                                         <div className="full-width custom-google-btn">
                                             <span className="icon" />
                                             <span className="full-width button-text"> {GOOGLE_SIGN_IN_LABEL}</span>
@@ -162,9 +162,9 @@ class Register extends React.Component {
                                     </div>
                                 </Col>
                             </Row>
-                            <Row className="row-pad">
+                            <Row className="py-3 px-0">
                                 <Col lg="6" xl="6">
-                                    <div>
+                                    <div className="custom-google-btn-div">
                                         <div className="full-width fb-btn custom-google-btn">
                                             <span className="icon iconfb" />
                                             <span className="full-width button-text"> {FACEBOOK_SIGN_IN_LABEL}</span>
@@ -172,7 +172,7 @@ class Register extends React.Component {
                                     </div>
                                 </Col>
                             </Row>
-                            <Row className="row-pad">
+                            <Row className="py-3 px-0">
                                 <Col lg="6" xl="6">
                                     <Row className="text-center">
                                         <Col xs="5"><hr /></Col>
@@ -181,7 +181,7 @@ class Register extends React.Component {
                                     </Row>
                                 </Col>
                             </Row>
-                            <Row className="row-pad">
+                            <Row className="py-3 px-0">
                                 <Col lg="6" xl="6">
                                     <div>
                                         <form onSubmit={this.handleSubmit}>
@@ -228,7 +228,7 @@ class Register extends React.Component {
                                     </div>
                                 </Col>
                             </Row>
-                            <Row className="row-pad">
+                            <Row className="py-3 px-0">
                                 <Col className="text-center" lg="6" xl="6">
                                     <p>Already have an account? Login</p>
                                 </Col>

@@ -8,7 +8,7 @@ class ShowPropertyCard extends React.Component {
         return (
             <div>
                 {
-                    forAdmin ? <Card className="con-pad">
+                    forAdmin ? <Card className="p-3 m-2">
 
                         <Row>
                             <Col>User : {property.property_user}</Col>
@@ -27,7 +27,7 @@ class ShowPropertyCard extends React.Component {
                             <Col><Button>Verify</Button></Col>
                         </Row>
                     </Card> :
-                        <Card className="con-pad">
+                        <Card className="p-3 m-2">
                             <Row>
                                 <Col>Property type : {property.property_type}</Col>
                                 <Col>Purpose : {property.property_purpose}</Col>

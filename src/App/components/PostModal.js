@@ -52,6 +52,15 @@ class PostModal extends React.Component {
         });
     }
 
+    handleMobileChange = (event) => {
+        const re = /^[0-9\b]+$/;
+        if (event.target.value === '' || re.test(event.target.value)) {
+            this.setState({
+                [event.target.id]: event.target.value
+            });
+        } 
+    }
+
     validateForm = () => {
         if (this.state.selectedPropertyType != null
             && this.state.selectedPurpose != null
@@ -153,8 +162,10 @@ class PostModal extends React.Component {
                                         <Form.Label>Mobile</Form.Label>
                                         <Form.Control
                                             value={mobile}
-                                            onChange={this.handleChange}
-                                            type="text" />
+                                            type="tel"
+                                            onChange={this.handleMobileChange}
+                                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                                            required />
                                     </Form.Group>
                                 </Col>
                             </Form.Row>
@@ -205,7 +216,7 @@ class PostModal extends React.Component {
                                     </Form.Group>
                                 </Col>
                             </Form.Row>
-                            {showError && <Form.Row className="row-pad">
+                            {showError && <Form.Row className="py-3 px-0">
                                 <Col className="text-center color-red"> {errMsg} </Col>
                             </Form.Row>
                             }

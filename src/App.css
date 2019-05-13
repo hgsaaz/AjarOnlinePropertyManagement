@@ -1,11 +1,6 @@
 /*--------------React css----------*/
 
-.form-column {
-    padding: 10px;
-}
-
 .form-column-btn {
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,10 +176,6 @@
     color: #FFF;
 }
 
-.register-container {
-    padding: 20px 50px 20px 50px;
-}
-
 .no-border {
     border : none;
 }
@@ -193,13 +184,8 @@
     height : 350px;
 }
 
-.listing-div{
-    margin-top: 2px;
-    margin-bottom: 5px;
-}
-
-.pad-3{
-    padding: 3px;
+.custom-google-btn-div {
+    cursor: pointer;
 }
 
 .custom-google-btn {
@@ -268,10 +254,6 @@
 
 /*----Container Row Col-----*/
 
-.row-pad {
-    padding: 10px 0px 10px 0px;
-}
-
 .full-width {
     width : 100%;
 }
@@ -280,64 +262,12 @@
     float : right;
 }
 
-.con-pad {
-    padding: 20px;
-}
-
 .grey-shadow {
     box-Shadow: 1px 1px 20px 3px rgb(217, 217, 219,0.6);
 }
 
 .similar-porp-sec {
     padding: 15px 10px 15px 30px;
-}
-
-.col-pad-5{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.col-pad-15{
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-.col-pad-10 {
-    padding: 0px 10px;
-}
-
-.col-pad-r-15 {
-    padding-right: 10px;
-    padding-left: 0px;
-}
-
-.h3-pad {
-    padding: 10px 10px 20px 0px;
-}
-
-.mar-0 {
-    margin: 0px;
-}
-
-.flex-pad {
-    padding-bottom: 20px;
-}
-
-.pad-bot-15 {
-    padding-bottom: 15px;
-}
-
-.pad-top-15 {
-    padding-top: 15px;
-}
-
-.pad-top-50 {
-    padding-top: 50px;
-}
-
-.h3-pad-10 {
-    padding: 10px;
-    padding-left: 0px;
 }
 
 .primary-color {
@@ -349,26 +279,6 @@
     z-index: 99;
     margin-top: -3.3%;
     margin-bottom: 3.3%;
-}
-
-.mar-bot-15 {
-    margin-bottom : 15px;
-}
-
-.pad-5 {
-    padding: 5px;
-}
-
-.pad-top-10{
-    padding-top: 10px;
-}
-
-.flex-div-pad{
-    padding: 0px 10px;
-}
-
-.pad-r-10 {
-    padding-right: 10px;
 }
 
 .color-red {

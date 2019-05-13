@@ -126,9 +126,9 @@ class Account extends React.Component {
                                 currentUser == null ?
                                     <Redirect to='/home' /> :
                                     <div>
-                                        <Container className="con-pad">
+                                        <Container className="p-3">
                                             <Row>
-                                                <Col><h3>User Details</h3></Col>
+                                                <Col><h3 className="pb-3">User Details</h3></Col>
                                             </Row>
                                             <Row>
                                                 <Col>Name : {currentUser.displayName}</Col>
@@ -139,12 +139,12 @@ class Account extends React.Component {
                                             </Row>
                                         </Container>
 
-                                        <div className="pad-top-50">
+                                        <div className="pt-5">
                                             {
 
                                                 <Container>
                                                     <Row>
-                                                        <Col><h2>Related Property Ads</h2></Col>
+                                                        <Col><h2 className="pb-3">Property Ads by you</h2></Col>
                                                     </Row>
                                                     {
                                                         records != null ? <div>{
@@ -153,7 +153,7 @@ class Account extends React.Component {
                                                                     <ShowPropertyCard forAdmin={false} property={property[1]} key={property[0]} />
                                                                 )
                                                             })
-                                                        }</div> : <div><p>No properties posted by you</p></div>
+                                                        }</div> : <div><p className="p-3">No properties posted by you</p></div>
                                                     }
                                                 </Container>
                                             }

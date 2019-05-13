@@ -122,18 +122,18 @@ class Login extends React.Component {
                 }
                 <Row>
                     <Col>
-                        {showError && <Row className="row-pad">
+                        {showError && <Row className="py-2 px-0">
                             <Col className="text-center color-red"> {errMsg} </Col>
                         </Row>
                         }
-                        <Row className="row-pad">
+                        <Row className="py-2 px-0">
                             <Col className="text-center">
                                 <h3>Login</h3>
                             </Col>
                         </Row>
-                        <Row className="row-pad">
+                        <Row className="py-2 px-0">
                             <Col>
-                                <div onClick={this.handleGoogleSignIn}>
+                                <div className="custom-google-btn-div" onClick={this.handleGoogleSignIn}>
                                     <div className="full-width custom-google-btn">
                                         <span className="icon" />
                                         <span className="full-width button-text" > {GOOGLE_SIGN_IN_LABEL}</span>
@@ -141,9 +141,9 @@ class Login extends React.Component {
                                 </div>
                             </Col>
                         </Row>
-                        <Row className="row-pad">
+                        <Row className="py-2 px-0">
                             <Col>
-                                <div>
+                                <div className="custom-google-btn-div">
                                     <div className="full-width fb-btn custom-google-btn">
                                         <span className="icon iconfb" />
                                         <span className="full-width button-text"> {FACEBOOK_SIGN_IN_LABEL}</span>
@@ -151,7 +151,7 @@ class Login extends React.Component {
                                 </div>
                             </Col>
                         </Row>
-                        <Row className="row-pad">
+                        <Row className="py-2 px-0">
                             <Col>
                                 <Row className="text-center">
                                     <Col xs="5"><hr /></Col>
@@ -160,7 +160,7 @@ class Login extends React.Component {
                                 </Row>
                             </Col>
                         </Row>
-                        <Row className="row-pad">
+                        <Row className="py-2 px-0">
                             <Col>
                                 <div>
                                     <form onSubmit={this.handleSubmit}>
@@ -198,15 +198,15 @@ class Login extends React.Component {
                                 </div>
                             </Col>
                         </Row>
-                        <Row className="row-pad">
+                        <Row className="py-2 px-0">
                             <Col>
                                 <Row>
-                                    <Col><p>Keep me logged in</p></Col>
+                                    <Col><p><input type="checkbox"/> Keep me logged in</p></Col>
                                     <Col><p className="right-float">Forgot Password?</p></Col>
                                 </Row>
                             </Col>
                         </Row>
-                        <Row className="row-pad">
+                        <Row className="py-2 px-0">
                             <Col className="text-center">
                                 <p>Don't have an account? Create an account</p>
                             </Col>
